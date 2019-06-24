@@ -1,0 +1,16 @@
+// Top Navigation Bar Styles
+.myName {
+    font-family: $O-Sans !important;
+}
+
+.nav-opt {
+    transition: 0.3s ease;
+    border-top: .5px solid $white;
+    border-bottom: .5px solid $white;
+  }
+
+.nav-opt:hover {
+    border-top: 3px solid $Prim-color;
+    border-bottom: 3px solid $Prim-color;
+    padding: 4px 0; 
+}

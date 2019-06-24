@@ -1,5 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:700|Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway|Source+Sans+Pro&display=swap");
+* {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0 17rem !important; }
+
+nav {
+  background: #ffff !important; }
+
+.myName {
+  font-family: "Open Sans", sans-serif !important; }
+
+.nav-opt {
+  transition: 0.3s ease;
+  border-top: 0.5px solid #ffff;
+  border-bottom: 0.5px solid #ffff; }
+
+.nav-opt:hover {
+  border-top: 3px solid #6A8D73;
+  border-bottom: 3px solid #6A8D73;
+  padding: 4px 0; }
 
 /*# sourceMappingURL=main.css.map */
