@@ -19,6 +19,23 @@ span {
   text-transform: uppercase;
   display: block; }
 
+.fa-user-graduate,
+.fa-tasks {
+  background: #6A8D73;
+  color: #ffff;
+  text-align: center;
+  padding: 4rem;
+  font-size: 2rem; }
+
+.read-more-btn {
+  border-radius: 0 !important;
+  background: #6A8D73 !important;
+  color: #ffff !important;
+  width: 10vw; }
+
+.center-all {
+  text-align: center !important; }
+
 .myName {
   font-family: "Open Sans", sans-serif !important; }
 
@@ -58,6 +75,9 @@ span {
   85% {
     letter-spacing: 3px;
     margin-bottom: -30px; } }
+.option-sect {
+  padding: 5rem; }
+
 .intro-container {
   text-align: left;
   position: absolute;
@@ -65,5 +85,10 @@ span {
   width: 35%;
   background: #ffff;
   padding: .5rem; }
+
+.option-sect {
+  display: grid;
+  grid-gap: .5rem;
+  grid-template-columns: repeat(2, 1fr); }
 
 /*# sourceMappingURL=main.css.map */

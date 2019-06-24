@@ -1,6 +1,7 @@
 // ========================
 // Landing Page Styles
 
+// Hero Styles in Header
 .intro-container {
     text-align: left;
     position: absolute;
@@ -8,4 +9,12 @@
     width: 35%;
     background: $white;
     padding: .5rem;
+}
+
+// Main Section Styles
+.option-sect {
+    display: grid;
+    grid-gap: .5rem;
+
+    grid-template-columns: repeat(2, 1fr);
 }

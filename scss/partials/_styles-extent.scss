@@ -1,3 +1,7 @@
+.center-all {
+    text-align: center !important;
+}
+
 // Top Navigation Bar Styles
 .myName {
     font-family: $O-Sans !important;
@@ -18,7 +22,7 @@
 // ========================
 // Landing Page Styles
 
-// Hero in Header
+// Hero Styles in Header
 .text1 {
     font-family: $P-Marker;
     color: $Prim-color;
@@ -50,4 +54,9 @@
         letter-spacing: 3px;
         margin-bottom: -30px; 
     }
+}
+
+// Main Section Styles
+.option-sect {
+    padding: 5rem;
 }

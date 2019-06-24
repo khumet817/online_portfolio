@@ -1,0 +1,18 @@
+// Icons Styles
+.fa-user-graduate,
+.fa-tasks   {
+    background: $Prim-color;
+    color: $white;
+    text-align: center;
+    padding: 4rem;
+    font-size: 2rem;
+}
+
+// Button Styles
+.read-more-btn {
+    border-radius: 0 !important;
+    background: $Prim-color !important;
+    color: $white !important;
+
+    width: 10vw;
+}
