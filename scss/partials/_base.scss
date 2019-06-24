@@ -22,3 +22,14 @@ span {
     text-transform: uppercase;
     display: block;
 }
+
+h1 {
+    font-family: $P-Marker !important;
+    color: $Prim-color;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: $Raleway !important;
+}

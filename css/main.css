@@ -19,6 +19,15 @@ span {
   text-transform: uppercase;
   display: block; }
 
+h1 {
+  font-family: "Permanent Marker", cursive !important;
+  color: #6A8D73; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: "Raleway", sans-serif !important; }
+
 .fa-user-graduate,
 .fa-tasks {
   background: #6A8D73;
@@ -77,6 +86,10 @@ span {
     margin-bottom: -30px; } }
 .option-sect {
   padding: 5rem; }
+
+.about-me-sect {
+  background: #f5f5f591;
+  padding: 5rem 3rem; }
 
 .intro-container {
   text-align: left;
