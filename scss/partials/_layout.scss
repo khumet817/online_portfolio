@@ -10,6 +10,7 @@
     background: $white;
     padding: .5rem;
 }
+// ===========================
 
 // Main Section Styles
 .option-sect {
@@ -17,4 +18,18 @@
     grid-gap: .5rem;
 
     grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-me-sect,
+.contact-page-grids {
+    display: grid;
+    grid-gap: 0;
+
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-details {
+    display: grid;
+
+    grid-template-rows: repeat(5, 1fr);
 }

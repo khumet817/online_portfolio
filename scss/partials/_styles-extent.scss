@@ -65,3 +65,26 @@
     background: $LG-bg;
     padding: 5rem 3rem;
 }
+
+.contact-me-sect {
+    background: $DG-bg;
+    padding: 2rem 5rem;
+}
+
+.contact-details {
+    background: $Prim-color;
+    color: $white;
+
+    a {
+        color: $white;
+    }
+}
+
+.detail-sect,
+.detail-sect-last {
+    padding: .5rem 0;
+}
+
+.detail-sect {
+    border-bottom: solid .01rem $white;
+}
