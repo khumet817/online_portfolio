@@ -10,6 +10,15 @@ body {
 nav {
   background: #ffff !important; }
 
+header {
+  background: url(../img/home-setup.jpg);
+  background-size: cover;
+  height: 70vh; }
+
+span {
+  text-transform: uppercase;
+  display: block; }
+
 .myName {
   font-family: "Open Sans", sans-serif !important; }
 
@@ -22,5 +31,39 @@ nav {
   border-top: 3px solid #6A8D73;
   border-bottom: 3px solid #6A8D73;
   padding: 4px 0; }
+
+.text1 {
+  font-family: "Permanent Marker", cursive;
+  color: #6A8D73;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  margin-bottom: .25rem;
+  background: #ffff;
+  position: relative;
+  animation: text 3s 1; }
+
+.text2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: #000000; }
+
+@keyframes text {
+  0% {
+    color: #ffff;
+    margin-bottom: -40px; }
+  30% {
+    letter-spacing: 10px;
+    margin-bottom: -30px; }
+  85% {
+    letter-spacing: 3px;
+    margin-bottom: -30px; } }
+.intro-container {
+  text-align: left;
+  position: absolute;
+  top: 60%;
+  width: 35%;
+  background: #ffff;
+  padding: .5rem; }
 
 /*# sourceMappingURL=main.css.map */

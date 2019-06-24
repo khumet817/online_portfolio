@@ -14,3 +14,40 @@
     border-bottom: 3px solid $Prim-color;
     padding: 4px 0; 
 }
+
+// ========================
+// Landing Page Styles
+
+// Hero in Header
+.text1 {
+    font-family: $P-Marker;
+    color: $Prim-color;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    margin-bottom: .25rem;
+    background: $white;
+    position: relative;
+    animation: text 3s 1;
+}
+
+.text2 {
+    font-family: $O-Sans;
+    font-size: 1rem;
+    color: $black;
+}
+
+@keyframes text {
+    0% {
+        color: $white;
+        margin-bottom: -40px;
+    }
+    30% {
+        letter-spacing: 10px;
+        margin-bottom: -30px;
+    }
+    85% {
+        letter-spacing: 3px;
+        margin-bottom: -30px; 
+    }
+}

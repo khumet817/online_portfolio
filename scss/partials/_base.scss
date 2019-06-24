@@ -11,3 +11,14 @@ body {
 nav {
     background: $white !important;
 }
+
+header {
+    background: url(../img/home-setup.jpg);
+    background-size: cover;
+    height: 70vh;
+}
+
+span {
+    text-transform: uppercase;
+    display: block;
+}
