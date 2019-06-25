@@ -28,6 +28,16 @@ h1 {
     color: $Prim-color;
 }
 
+h2 {
+    font-family: $Montserrat !important;
+    font-weight: 600 !important;
+    font-size: 4rem !important;
+    color: $Prim-color;
+    text-align: center;
+
+    padding: 3rem 0;
+}
+
 p {
     margin-top: 0;
     margin-bottom: 1rem;
