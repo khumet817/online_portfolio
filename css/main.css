@@ -116,6 +116,11 @@ p {
 .detail-sect {
   border-bottom: solid 0.01rem #ffff; }
 
+.the-language {
+  background: #6A8D73;
+  color: #ffff;
+  padding: 1rem; }
+
 .intro-container {
   text-align: left;
   position: absolute;
@@ -130,7 +135,8 @@ p {
   grid-template-columns: repeat(2, 1fr); }
 
 .contact-me-sect,
-.contact-page-grids {
+.contact-page-grids,
+.language-grids {
   display: grid;
   grid-gap: 0;
   grid-template-columns: repeat(2, 1fr); }
@@ -138,5 +144,8 @@ p {
 .contact-details {
   display: grid;
   grid-template-rows: repeat(5, 1fr); }
+
+.language-grids {
+  grid-gap: 1rem !important; }
 
 /*# sourceMappingURL=main.css.map */
