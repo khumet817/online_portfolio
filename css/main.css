@@ -121,6 +121,16 @@ p {
   color: #ffff;
   padding: 1rem; }
 
+.school-heading {
+  background: #6A8D73;
+  color: #ffff;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem; }
+
+.school-heading-img {
+  width: 15%;
+  height: 100%; }
+
 .intro-container {
   text-align: left;
   position: absolute;
