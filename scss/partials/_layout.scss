@@ -38,3 +38,16 @@
 .language-grids {
     grid-gap: 1rem !important;
 }
+
+.project-grids {
+    display: grid;
+
+    grid-template-columns: auto auto;
+}
+
+.project-grids,
+.contact-page-grids {
+    grid-gap: 2rem;
+
+    margin: 2rem 0;
+}
