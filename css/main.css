@@ -36,6 +36,11 @@ p {
   margin-bottom: 1rem;
   font-family: "Raleway", sans-serif !important; }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
 .fa-user-graduate,
 .fa-tasks {
   background: #6A8D73;
@@ -221,6 +226,8 @@ p {
 
 .cv-content-grid {
   display: grid;
-  grid-template-columns: 20vw 80vw; }
+  grid-template-columns: 20vw 35vw;
+  height: auto;
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
