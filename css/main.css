@@ -47,6 +47,7 @@ p {
 .read-more-btn {
   border-radius: 0 !important;
   background: #6A8D73 !important;
+  border-color: transparent !important;
   color: #ffff !important;
   width: 10vw; }
 
@@ -173,6 +174,15 @@ p {
   padding: 1rem;
   margin-bottom: .5rem; }
 
+.cv-heading {
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-align: center;
+  margin: 1rem 0; }
+
+.cv-content {
+  font-size: .85rem; }
+
 .projectImg {
   height: 35vh;
   width: 100%; }
@@ -208,5 +218,9 @@ p {
   grid-gap: 2rem;
   height: auto;
   margin: 2rem 0; }
+
+.cv-content-grid {
+  display: grid;
+  grid-template-columns: 20vw 80vw; }
 
 /*# sourceMappingURL=main.css.map */
