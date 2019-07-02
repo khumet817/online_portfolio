@@ -8,14 +8,24 @@
     font-size: 2rem;
 }
 
+.fa-download:before,
+.fa-copyright:before {
+    padding: 0 .5rem;
+}
+
 // Button Styles
-.read-more-btn {
+.read-more-btn,
+.download-btn {
     border-radius: 0 !important;
     background: $Prim-color !important;
-    border-color: transparent !important;
     color: $white !important;
 
     width: 10vw;
+}
+
+.download-btn {
+    margin: 1rem 0;
+    width: 15vw;
 }
 
 .social-media-btn {

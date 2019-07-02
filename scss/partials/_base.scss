@@ -18,6 +18,14 @@ header {
     height: 70vh;
 }
 
+footer {
+    text-align: center;
+    padding: 2rem 0;
+
+    font-family: $Montserrat !important;
+    font-weight: 600;
+}
+
 span {
     text-transform: uppercase;
     display: block;
