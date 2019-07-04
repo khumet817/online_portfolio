@@ -51,6 +51,11 @@
     .download-btn {
         width: 25vw;
     }
+    // ========================
+    // About Page Styles
+    .about {
+        padding: 1rem 5rem;
+    }
 }
 
 @media only screen and (max-width:900px) {
@@ -60,13 +65,14 @@
     // Hero Styles in Header
     .intro-container {
         width: 54%;
-    }
-    // =========================
+    }  
 
     // Main Styles
     .option-sect {
         padding: 5rem;
     }
+
+    // =========================
 }
 
 @media only screen and (max-width:700px) {
@@ -77,13 +83,14 @@
     .intro-container {
         width: 60%;
     }
-    // ========================
 
     // Main Styles
     .option-sect {
         padding: 5rem 10rem;
         grid-template-columns: 1fr;
     }
+
+    // ========================
 }
 
 @media only screen and (max-width:600px) {
@@ -102,7 +109,6 @@
     .text2 {
         font-size: .8rem;
     }
-    // ========================
 
     // Main Styles
     .option-sect {
@@ -112,6 +118,25 @@
     .read-more-btn, 
     .download-btn {
         width: 35vw;
+    }
+
+    // ========================
+    // About Page Styles 
+    .about {
+        padding: 1rem 2rem;
+    }
+    
+    // Main Styles
+    .the-language {
+        text-align: center;
+    }
+
+    .language-grids {
+        grid-template-columns: 1fr;
+    }
+
+    .language-description {
+        display: none;
     }
 }
 
@@ -132,12 +157,12 @@
     .intro-container {
         top: 70%;
     }
-    // ========================
 
     // Main Styles
     .option-sect {
         padding: 4rem 3rem;
     }
+    // ========================
 }
 
 @media only screen and (max-width:380px) {
@@ -163,5 +188,12 @@
     .intro-container {
         width: 85%;
     }
+
+    // Main Styles
+    .option-sect {
+        padding: 1rem 0;
+        padding-bottom: 0;
+    }
+
     // ========================
 }

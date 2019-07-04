@@ -274,7 +274,10 @@ ul {
 
   .read-more-btn,
   .download-btn {
-    width: 25vw; } }
+    width: 25vw; }
+
+  .about {
+    padding: 1rem 5rem; } }
 @media only screen and (max-width: 900px) {
   .intro-container {
     width: 54%; }
@@ -303,7 +306,19 @@ ul {
 
   .read-more-btn,
   .download-btn {
-    width: 35vw; } }
+    width: 35vw; }
+
+  .about {
+    padding: 1rem 2rem; }
+
+  .the-language {
+    text-align: center; }
+
+  .language-grids {
+    grid-template-columns: 1fr; }
+
+  .language-description {
+    display: none; } }
 @media only screen and (max-width: 425px) {
   header {
     background: url(../img/IMG-20190610-WA0019.jpg);
@@ -328,6 +343,10 @@ ul {
     margin: 0 !important; }
 
   .intro-container {
-    width: 85%; } }
+    width: 85%; }
+
+  .option-sect {
+    padding: 1rem 0;
+    padding-bottom: 0; } }
 
 /*# sourceMappingURL=main.css.map */
