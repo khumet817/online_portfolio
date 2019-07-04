@@ -43,7 +43,13 @@
     }
 
     .option-sect {
-        padding: 5rem 2rem;
+        padding: 5rem 10rem;
+    }
+
+    // Main Styles
+    .read-more-btn, 
+    .download-btn {
+        width: 25vw;
     }
 }
 
@@ -55,6 +61,12 @@
     .intro-container {
         width: 54%;
     }
+    // =========================
+
+    // Main Styles
+    .option-sect {
+        padding: 5rem;
+    }
 }
 
 @media only screen and (max-width:700px) {
@@ -65,7 +77,13 @@
     .intro-container {
         width: 60%;
     }
+    // ========================
 
+    // Main Styles
+    .option-sect {
+        padding: 5rem 10rem;
+        grid-template-columns: 1fr;
+    }
 }
 
 @media only screen and (max-width:600px) {
@@ -83,6 +101,17 @@
 
     .text2 {
         font-size: .8rem;
+    }
+    // ========================
+
+    // Main Styles
+    .option-sect {
+        padding: 4rem;
+    }
+
+    .read-more-btn, 
+    .download-btn {
+        width: 35vw;
     }
 }
 
@@ -102,6 +131,12 @@
     // Hero Styles in Header
     .intro-container {
         top: 70%;
+    }
+    // ========================
+
+    // Main Styles
+    .option-sect {
+        padding: 4rem 3rem;
     }
 }
 
@@ -128,4 +163,5 @@
     .intro-container {
         width: 85%;
     }
+    // ========================
 }

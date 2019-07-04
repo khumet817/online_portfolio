@@ -270,13 +270,24 @@ ul {
     width: 40%; }
 
   .option-sect {
-    padding: 5rem 2rem; } }
+    padding: 5rem 10rem; }
+
+  .read-more-btn,
+  .download-btn {
+    width: 25vw; } }
 @media only screen and (max-width: 900px) {
   .intro-container {
-    width: 54%; } }
+    width: 54%; }
+
+  .option-sect {
+    padding: 5rem; } }
 @media only screen and (max-width: 700px) {
   .intro-container {
-    width: 60%; } }
+    width: 60%; }
+
+  .option-sect {
+    padding: 5rem 10rem;
+    grid-template-columns: 1fr; } }
 @media only screen and (max-width: 600px) {
   .intro-container {
     width: 80%; }
@@ -285,7 +296,14 @@ ul {
     font-size: 1.5rem; }
 
   .text2 {
-    font-size: .8rem; } }
+    font-size: .8rem; }
+
+  .option-sect {
+    padding: 4rem; }
+
+  .read-more-btn,
+  .download-btn {
+    width: 35vw; } }
 @media only screen and (max-width: 425px) {
   header {
     background: url(../img/IMG-20190610-WA0019.jpg);
@@ -294,7 +312,10 @@ ul {
     height: 100vh; }
 
   .intro-container {
-    top: 70%; } }
+    top: 70%; }
+
+  .option-sect {
+    padding: 4rem 3rem; } }
 @media only screen and (max-width: 380px) {
   header {
     background-position-x: 50%; }
