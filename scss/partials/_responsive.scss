@@ -1,5 +1,7 @@
 // Responsive Design
 
+// My Online Portfolio will have a lot of breakpoints that way it is able to cater most if not every screen size available from 1344px downwards
+
 @media only screen and (max-width: 1300px) {
     body {
         margin: 0 11rem !important;
@@ -14,4 +16,29 @@
     .option-sect {
         padding: 5rem 2rem;
     }
+}
+
+@media only screen and (max-width:900px) {
+
+}
+
+@media only screen and (max-width:700px) {
+
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+// Potrait Mobile View Responsive Design
+@media only screen and (max-width:425px) {
+
+}
+
+@media only screen and (max-width:375px) {
+
+}
+
+@media only screem and (max-width:320px) {
+
 }
