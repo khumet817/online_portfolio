@@ -3,14 +3,35 @@
 // My Online Portfolio will have a lot of breakpoints that way it is able to cater most if not every screen size available from 1344px downwards
 
 @media only screen and (max-width: 1300px) {
+    // Base Styles
     body {
         margin: 0 11rem !important;
+    }
+
+    // ========================
+    //  Landing Page Styles
+
+    // Hero Styles in Header
+    @keyframes text {
+        30% {
+            letter-spacing: 6px;
+        }
     }
 }
 
 @media only screen and (max-width: 1100px) {
+    // Base Styles
     body {
         margin: 0 auto !important;
+    }
+
+    // ========================
+    //  Landing Page Styles
+
+    // Hero Styles in Header
+    .intro-container {
+        top: 50%;
+        width: 40%;
     }
 
     .option-sect {
@@ -19,15 +40,42 @@
 }
 
 @media only screen and (max-width:900px) {
+    // ========================
+    //  Landing Page Styles
 
+    // Hero Styles in Header
+    .intro-container {
+        width: 47%;
+    }
 }
 
 @media only screen and (max-width:700px) {
+    // ========================
+    //  Landing Page Styles
+
+    // Hero Styles in Header
+    .intro-container {
+        width: 60%;
+    }
 
 }
 
 @media only screen and (max-width:600px) {
+    // ========================
+    //  Landing Page Styles
 
+    // Hero Styles in Header
+    .intro-container {
+        width: 80%;
+    }
+
+    .text1 {
+        font-size: 1.5rem;
+    }
+
+    .text2 {
+        font-size: .8rem;
+    }
 }
 
 // Potrait Mobile View Responsive Design
@@ -35,10 +83,28 @@
 
 }
 
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:380px) {
+    // Top Navigation Bar Styles
+    .myLogo {
+        height: 0;
+        width: 0;
+    }
 
-}
+    .myName {
+        margin: 0 !important;
+    }
 
-@media only screem and (max-width:320px) {
+    // ========================
+    //  Landing Page Styles
 
+    // Hero Styles in Header
+    .intro-container {
+        width: 85%;
+    }
+    
+    @keyframes text {
+        30% {
+            letter-spacing: 4.5px;
+        }
+    }
 }

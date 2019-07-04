@@ -98,6 +98,10 @@ ul {
 .myName {
   font-family: "Open Sans", sans-serif !important; }
 
+.myLogo {
+  width: 30px;
+  height: 30px; }
+
 .nav-opt {
   transition: 0.3s ease;
   border-top: 0.5px solid #ffff;
@@ -246,12 +250,49 @@ ul {
 
 @media only screen and (max-width: 1300px) {
   body {
-    margin: 0 11rem !important; } }
+    margin: 0 11rem !important; }
+
+  @keyframes text {
+    30% {
+      letter-spacing: 6px; } } }
 @media only screen and (max-width: 1100px) {
   body {
     margin: 0 auto !important; }
 
+  .intro-container {
+    top: 50%;
+    width: 40%; }
+
   .option-sect {
     padding: 5rem 2rem; } }
+@media only screen and (max-width: 900px) {
+  .intro-container {
+    width: 47%; } }
+@media only screen and (max-width: 700px) {
+  .intro-container {
+    width: 60%; } }
+@media only screen and (max-width: 600px) {
+  .intro-container {
+    width: 80%; }
+
+  .text1 {
+    font-size: 1.5rem; }
+
+  .text2 {
+    font-size: .8rem; } }
+@media only screen and (max-width: 380px) {
+  .myLogo {
+    height: 0;
+    width: 0; }
+
+  .myName {
+    margin: 0 !important; }
+
+  .intro-container {
+    width: 85%; }
+
+  @keyframes text {
+    30% {
+      letter-spacing: 4.5px; } } }
 
 /*# sourceMappingURL=main.css.map */
