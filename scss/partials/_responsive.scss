@@ -13,8 +13,16 @@
 
     // Hero Styles in Header
     @keyframes text {
+        0% {
+            color: $white;
+            margin-bottom: -28px;
+        }
         30% {
             letter-spacing: 6px;
+        }
+        85% {
+            letter-spacing: 3px;
+            margin-bottom: -25px; 
         }
     }
 }
@@ -45,7 +53,7 @@
 
     // Hero Styles in Header
     .intro-container {
-        width: 47%;
+        width: 54%;
     }
 }
 
@@ -80,10 +88,28 @@
 
 // Potrait Mobile View Responsive Design
 @media only screen and (max-width:425px) {
+    // Base Styles
+    header {
+        background: url(../img/IMG-20190610-WA0019.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
 
+    // ========================
+    //  Landing Page Styles
+
+    // Hero Styles in Header
+    .intro-container {
+        top: 70%;
+    }
 }
 
 @media only screen and (max-width:380px) {
+    // Base Styles 
+    header {
+        background-position-x: 50%;
+    }
     // Top Navigation Bar Styles
     .myLogo {
         height: 0;
@@ -98,13 +124,8 @@
     //  Landing Page Styles
 
     // Hero Styles in Header
+    
     .intro-container {
         width: 85%;
-    }
-    
-    @keyframes text {
-        30% {
-            letter-spacing: 4.5px;
-        }
     }
 }
