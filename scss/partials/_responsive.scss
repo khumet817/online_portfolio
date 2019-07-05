@@ -25,6 +25,12 @@
             margin-bottom: -25px; 
         }
     }
+
+    // ========================
+    // CV Page Styles
+    .download-btn {
+        width: 16vw;
+    }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -91,6 +97,10 @@
     }
 
     // ========================
+    // CV Page Styles
+    .download-btn {
+        width: 30vw;
+    }
 }
 
 @media only screen and (max-width:600px) {
@@ -138,6 +148,11 @@
     .language-description {
         display: none;
     }
+    // ========================
+    // CV Page Styles
+    .cv-page-heading h2 {
+        font-size: 2.5rem !important;
+    }
 }
 
 // Potrait Mobile View Responsive Design
@@ -163,6 +178,10 @@
         padding: 4rem 3rem;
     }
     // ========================
+    // CV Page Styles
+    .download-btn {
+        width: 50vw;
+    }
 }
 
 @media only screen and (max-width:380px) {

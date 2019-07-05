@@ -197,13 +197,13 @@ ul {
   padding: 1rem;
   margin-bottom: .5rem; }
 
-.cv-heading {
+.cv-main {
+  padding: 1.5rem; }
+
+.cv-section-heading {
   font-weight: 700;
   letter-spacing: .3rem;
   margin: 1rem 0; }
-
-.cv-content {
-  font-size: .85rem; }
 
 .projectImg {
   height: 35vh;
@@ -241,12 +241,6 @@ ul {
   height: auto;
   margin: 2rem 0; }
 
-.cv-content-grid {
-  display: grid;
-  grid-template-columns: 20vw 35vw;
-  height: auto;
-  width: 100%; }
-
 @media only screen and (max-width: 1300px) {
   body {
     margin: 0 11rem !important; }
@@ -259,7 +253,9 @@ ul {
       letter-spacing: 6px; }
     85% {
       letter-spacing: 3px;
-      margin-bottom: -25px; } } }
+      margin-bottom: -25px; } }
+  .download-btn {
+    width: 16vw; } }
 @media only screen and (max-width: 1100px) {
   body {
     margin: 0 auto !important; }
@@ -289,7 +285,10 @@ ul {
 
   .option-sect {
     padding: 5rem 10rem;
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+
+  .download-btn {
+    width: 30vw; } }
 @media only screen and (max-width: 600px) {
   .intro-container {
     width: 80%; }
@@ -317,7 +316,10 @@ ul {
     grid-template-columns: 1fr; }
 
   .language-description {
-    display: none; } }
+    display: none; }
+
+  .cv-page-heading h2 {
+    font-size: 2.5rem !important; } }
 @media only screen and (max-width: 425px) {
   header {
     background: url(../img/IMG-20190610-WA0019.jpg);
@@ -329,7 +331,10 @@ ul {
     top: 70%; }
 
   .option-sect {
-    padding: 4rem 3rem; } }
+    padding: 4rem 3rem; }
+
+  .download-btn {
+    width: 50vw; } }
 @media only screen and (max-width: 380px) {
   header {
     background-position-x: 50%; }
