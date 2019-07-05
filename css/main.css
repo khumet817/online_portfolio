@@ -352,7 +352,8 @@ hr {
     background: url(../img/IMG-20190610-WA0019.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh; }
+    height: 100vh;
+    background-position-x: 65%; }
 
   .intro-container {
     top: 70%; }
@@ -363,9 +364,6 @@ hr {
   .download-btn {
     width: 50vw; } }
 @media only screen and (max-width: 380px) {
-  header {
-    background-position-x: 50%; }
-
   .myLogo {
     height: 0;
     width: 0; }

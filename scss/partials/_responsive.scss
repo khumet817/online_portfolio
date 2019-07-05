@@ -181,6 +181,8 @@
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
+
+        background-position-x: 65%;
     }
 
     // ========================
@@ -203,10 +205,6 @@
 }
 
 @media only screen and (max-width:380px) {
-    // Base Styles 
-    header {
-        background-position-x: 50%;
-    }
     // Top Navigation Bar Styles
     .myLogo {
         height: 0;
