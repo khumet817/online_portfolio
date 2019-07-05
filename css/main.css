@@ -295,7 +295,8 @@ hr {
   .two-col-grids {
     grid-template-columns: 20vw 69vw; }
 
-  .projects-main {
+  .projects-main,
+  .contact-main {
     padding: 0 2rem; } }
 @media only screen and (max-width: 900px) {
   .intro-container {
@@ -324,7 +325,11 @@ hr {
     grid-template-columns: 1fr; }
 
   .download-btn {
-    width: 30vw; } }
+    width: 30vw; }
+
+  .contact-page-grids {
+    grid-gap: 1rem;
+    grid-template-columns: 1fr; } }
 @media only screen and (max-width: 600px) {
   .intro-container {
     width: 80%; }
@@ -377,7 +382,11 @@ hr {
     padding: 1rem 0; }
 
   .download-btn {
-    width: 50vw; } }
+    width: 50vw; }
+
+  .contact-page-heading h2 {
+    font-size: 2.5rem !important;
+    padding-bottom: 0; } }
 @media only screen and (max-width: 380px) {
   .myLogo {
     height: 0;

@@ -73,8 +73,9 @@
         grid-template-columns: 20vw 69vw;
     }
     // ========================
-    // Projects Page Styes 
-    .projects-main {
+    // Projects & Contact Page Styes 
+    .projects-main,
+    .contact-main {
         padding: 0 2rem;
     }
 }
@@ -132,6 +133,12 @@
     // CV Page Styles
     .download-btn {
         width: 30vw;
+    }
+    // ========================
+    // Contact Page Styles
+    .contact-page-grids {
+        grid-gap: 1rem;
+        grid-template-columns: 1fr;
     }
 }
 
@@ -223,6 +230,12 @@
 
     .download-btn {
         width: 50vw;
+    }
+    // =======================
+    // Contact Page Styles
+    .contact-page-heading h2 {
+        font-size: 2.5rem !important;
+        padding-bottom: 0;
     }
 }
 
