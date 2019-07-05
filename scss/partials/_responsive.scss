@@ -28,6 +28,10 @@
 
     // ========================
     // CV Page Styles
+    .skills-grids {
+        grid-template-columns: 20vw 40vw;
+    }
+
     .download-btn {
         width: 16vw;
     }
@@ -62,6 +66,12 @@
     .about {
         padding: 1rem 5rem;
     }
+
+    // ========================
+    // CV Page Styles
+    .skills-grids {
+        grid-template-columns: 20vw 69vw;
+    }
 }
 
 @media only screen and (max-width:900px) {
@@ -78,7 +88,11 @@
         padding: 5rem;
     }
 
-    // =========================
+    // ========================
+    // CV Page Styles
+    .skills-grids {
+        padding: 1rem;
+    }
 }
 
 @media only screen and (max-width:700px) {
@@ -152,6 +166,10 @@
     // CV Page Styles
     .cv-page-heading h2 {
         font-size: 2.5rem !important;
+    }
+
+    .skills-grids {
+        grid-template-columns: 1fr;
     }
 }
 

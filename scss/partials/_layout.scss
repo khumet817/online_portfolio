@@ -46,6 +46,14 @@
     margin: 2rem 0;
 }
 
+.skills-grids {
+    display: grid;
+    grid-gap: .5rem;
+
+    grid-template-columns: 20vw 30vw;
+    padding: 1rem 2rem;
+}
+
 // .cv-content-grid {
 //     display: grid;
 
