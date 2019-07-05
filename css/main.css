@@ -296,7 +296,7 @@ hr {
     grid-template-columns: 20vw 69vw; }
 
   .projects-main {
-    padding: 2rem; } }
+    padding: 0 2rem; } }
 @media only screen and (max-width: 900px) {
   .intro-container {
     width: 54%; }
