@@ -265,7 +265,7 @@ hr {
   height: auto;
   margin: 2rem 0; }
 
-.skills-grids {
+.two-col-grids {
   display: grid;
   grid-gap: .5rem;
   grid-template-columns: 20vw 30vw;
@@ -284,7 +284,7 @@ hr {
     85% {
       letter-spacing: 3px;
       margin-bottom: -25px; } }
-  .skills-grids {
+  .two-col-grids {
     grid-template-columns: 20vw 40vw; }
 
   .download-btn {
@@ -307,7 +307,7 @@ hr {
   .about {
     padding: 1rem 5rem; }
 
-  .skills-grids {
+  .two-col-grids {
     grid-template-columns: 20vw 69vw; } }
 @media only screen and (max-width: 900px) {
   .intro-container {
@@ -316,7 +316,7 @@ hr {
   .option-sect {
     padding: 5rem; }
 
-  .skills-grids {
+  .two-col-grids {
     padding: 1rem; } }
 @media only screen and (max-width: 700px) {
   .intro-container {
@@ -360,7 +360,7 @@ hr {
   .cv-page-heading h2 {
     font-size: 2.5rem !important; }
 
-  .skills-grids {
+  .two-col-grids {
     grid-template-columns: 1fr; } }
 @media only screen and (max-width: 425px) {
   header {
