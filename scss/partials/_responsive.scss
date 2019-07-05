@@ -72,6 +72,11 @@
     .two-col-grids {
         grid-template-columns: 20vw 69vw;
     }
+    // ========================
+    // Projects Page Styes 
+    .projects-main {
+        padding: 2rem;
+    }
 }
 
 @media only screen and (max-width:900px) {
@@ -92,6 +97,19 @@
     // CV Page Styles
     .two-col-grids {
         padding: 1rem;
+    }
+
+    // ========================
+    // Projects Page Styes 
+    .project-grids {
+        grid-gap: 0;
+        grid-template-columns: 1fr;
+    }
+
+    .projectImg {
+        display: none;
+        height: 0;
+        width: 0;
     }
 }
 
@@ -199,6 +217,10 @@
     }
     // ========================
     // CV Page Styles
+    .two-col-grids {
+        padding: 1rem 0;
+    }
+
     .download-btn {
         width: 50vw;
     }

@@ -293,7 +293,10 @@ hr {
     padding: 1rem 5rem; }
 
   .two-col-grids {
-    grid-template-columns: 20vw 69vw; } }
+    grid-template-columns: 20vw 69vw; }
+
+  .projects-main {
+    padding: 2rem; } }
 @media only screen and (max-width: 900px) {
   .intro-container {
     width: 54%; }
@@ -302,7 +305,16 @@ hr {
     padding: 5rem; }
 
   .two-col-grids {
-    padding: 1rem; } }
+    padding: 1rem; }
+
+  .project-grids {
+    grid-gap: 0;
+    grid-template-columns: 1fr; }
+
+  .projectImg {
+    display: none;
+    height: 0;
+    width: 0; } }
 @media only screen and (max-width: 700px) {
   .intro-container {
     width: 60%; }
@@ -360,6 +372,9 @@ hr {
 
   .option-sect {
     padding: 4rem 3rem; }
+
+  .two-col-grids {
+    padding: 1rem 0; }
 
   .download-btn {
     width: 50vw; } }
