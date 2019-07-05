@@ -148,51 +148,32 @@ hr {
   background: #f5f5f591;
   padding: 5rem 3rem; }
 
-.contact-me-sect {
-  background: url(../img/business-card-bg.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 2rem 5rem; }
+.contact-sect {
+  padding-top: 2rem; }
 
-.business-card {
-  width: 100%;
-  height: 280px;
-  font-family: "Montserrat", sans-serif; }
+.contact-info {
+  text-align: center;
+  background: #ffff;
+  color: #6A8D73;
+  box-shadow: #58585870 0px 1px 4px 2px; }
+  .contact-info a {
+    color: #6A8D73; }
 
-.front,
-.back {
-  width: 100%;
-  height: 100%;
-  overflow: hidden; }
+.location {
+  background: #6A8D73;
+  color: #ffff;
+  padding: 20px 0; }
 
-.front {
-  background: linear-gradient(to right, #ffff, #6A8D73);
-  padding: 40px; }
-  .front span {
-    background: #6A8D73;
-    color: #ffff;
-    padding: 4px 10px;
-    display: inline-block;
-    margin-bottom: 40px; }
+.exact-location {
+  padding: 15px 0; }
 
-.contact-details {
-  padding: 0; }
-  .contact-details ul {
-    list-style-type: none;
-    margin: 0; }
-  .contact-details li {
-    margin: 10px 0;
-    display: flex;
-    align-items: center; }
-  .contact-details i {
-    width: 26px;
-    height: 26px;
-    background: #6A8D73;
-    color: #ffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 6px; }
+.detail-left {
+  padding: 20px 0;
+  border-bottom: solid #9fb7b954 1px; }
+
+.detail-right {
+  padding: 10px 0;
+  border-bottom: solid #9fb7b954 1px; }
 
 .the-language {
   background: #6A8D73;
@@ -230,6 +211,13 @@ hr {
   display: grid;
   grid-gap: .5rem;
   grid-template-columns: repeat(2, 1fr); }
+
+.contact-info-container {
+  display: grid;
+  grid-gap: 0;
+  width: 100%;
+  margin-top: 1rem;
+  grid-template-columns: repeat(3, 1fr); }
 
 .contact-page-grids,
 .language-grids {
@@ -323,6 +311,12 @@ hr {
   .option-sect {
     padding: 5rem 10rem;
     grid-template-columns: 1fr; }
+
+  .contact-info-container {
+    grid-template-columns: 1fr; }
+
+  .details-on-side {
+    padding: 0 40px; }
 
   .download-btn {
     width: 30vw; }
