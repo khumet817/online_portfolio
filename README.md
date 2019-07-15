@@ -19,9 +19,9 @@ This CV was created and designed by me. It is fully responsive and it is the beg
 
 -  https://khumet817.github.io/online_portfolio/index.html
 
-```
-## Technologies and Tools Used
 
+## Technologies and Tools Used
+```
 - Bootstrap
 
 Languages:
