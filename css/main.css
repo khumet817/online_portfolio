@@ -230,14 +230,15 @@ hr {
   margin-top: 1rem;
   grid-template-columns: repeat(3, 1fr); }
 
-.contact-page-grids,
-.language-grids {
+.contact-page-grids {
   display: grid;
   grid-gap: 0;
   grid-template-columns: repeat(2, 1fr); }
 
 .language-grids {
-  grid-gap: 1rem !important; }
+  display: grid;
+  grid-gap: 1rem !important;
+  grid-template-columns: repeat(4, 1fr); }
 
 .project-grids {
   display: grid;

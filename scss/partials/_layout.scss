@@ -10,6 +10,7 @@
     background: $white;
     padding: .5rem;
 }
+
 // ===========================
 
 // Main Section Styles
@@ -26,19 +27,19 @@
     width: 100%;
     margin-top: 1rem;
 
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.contact-page-grids,
-.language-grids {
+.contact-page-grids {
     display: grid;
     grid-gap: 0;
-
     grid-template-columns: repeat(2, 1fr);
 }
 
 .language-grids {
+    display: grid;
     grid-gap: 1rem !important;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .project-grids {
@@ -62,11 +63,3 @@
     grid-template-columns: 20vw 30vw;
     padding: 1rem 2rem;
 }
-
-// .cv-content-grid {
-//     display: grid;
-
-//     grid-template-columns: 20vw 35vw;
-//     height: auto;
-//     width: 100%;
-// }
