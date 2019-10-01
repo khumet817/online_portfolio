@@ -153,6 +153,15 @@ hr {
 .contact-sect {
   padding-top: 2rem; }
 
+.parallax-contact {
+  background: url(../img/blogging-coding-copywriting-34140.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 30vh; }
+  .parallax-contact h2 {
+    color: #ffff !important; }
+
 .contact-info {
   text-align: center;
   background: #ffff;
