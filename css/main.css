@@ -51,7 +51,9 @@ hr {
   margin: 2rem 0 !important; }
 
 .fa-address-card,
-.fa-tasks {
+.fa-tasks,
+.fa-pager,
+.fa-user-tie {
   background: #6A8D73;
   color: #ffff;
   text-align: center;

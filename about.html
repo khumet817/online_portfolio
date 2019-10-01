@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,20 +9,89 @@
     <link rel="stylesheet" href="css/main.css">
 
     <!-- Bootstrap CDN-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 
     <!-- Icons Library-->
     <script src="https://kit.fontawesome.com/159815f4af.js"></script>
 
     <!-- Favicon Library -->
-    <link rel="apple-touch-icon" sizes="180x180" href="https://khumet817.github.io/online_portfolio/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://khumet817.github.io/online_portfolio/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://khumet817.github.io/online_portfolio/favicon_io/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="https://khumet817.github.io/online_portfolio/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://khumet817.github.io/online_portfolio/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://khumet817.github.io/online_portfolio/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="https://khumet817.github.io/online_portfolio/favicon_io/android-chrome-512x512.png">
+
+    <style>
+        /* Google Fonts */
+        @import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap');
+
+        * {
+            box-sizing: border-box;
+        }
+
+        :root {
+            --Sniglefont: "Sniglet", cursive;
+            --Rubik: "Rubik", cursive;
+            --Patua: "Patua One", cursive;
+            --Lobster: "Lobster", cursive;
+            --light-black: #2e2c2caf;
+            --bggradient: linear-gradient(to bottom, #0D3B66, #FFFFFF);
+            --light-gray: rgba(255, 255, 255, 0.7);
+        }
+
+        /* Article Section Styles */
+        .section-1 {
+            padding: 20vmin 0;
+        }
+
+        .section-1 .row .col-md-6 .pray img {
+            opacity: 0.8;
+            width: 80%;
+            border-radius: 0.2em;
+        }
+
+        .section-1 .row .col-md-6:last-child {
+            position: relative;
+        }
+
+        .section-1 .row .col-md-6 .panel {
+            position: absolute;
+            top: 7vmin;
+            left: -18vmin;
+            background: white;
+            border-radius: 3px;
+            text-align: left;
+            padding: 10vmin 4vmin 10vmin 7vmin;
+            box-shadow: 0 25px 42px rgba(0, 0, 0, 0.2);
+            font-family: var(--Rubik) !important;
+            z-index: 1;
+        }
+
+        .section-1 .row .col-md-6 .panel h1 {
+            font-weight: bold;
+            padding: 0.4em 0;
+            font-size: 2em;
+        }
+
+        .section-1 .row .col-md-6 .panel p {
+            font-size: 0.9em;
+            color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
 </head>
+
 <body>
     <!-- Top Navigation Bar -->
     <nav class="navbar navbar-expand-lg sticky-top navbar-light">
@@ -32,21 +102,22 @@
         </a>
 
         <!-- Button appears on smaller screens -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <!-- Navigation Links -->
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-            <a class="nav-item nav-link nav-opt" href="index.html">Home</a>
-            <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link nav-opt" href="resume.html">CV</a>
-            <a class="nav-item nav-link nav-opt" href="projects.html">Projects</a>
-            <a class="nav-item nav-link nav-opt" href="contact.html">Contact</a>
+                <a class="nav-item nav-link nav-opt" href="index.html">Home</a>
+                <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link nav-opt" href="resume.html">CV</a>
+                <a class="nav-item nav-link nav-opt" href="projects.html">Projects</a>
+                <a class="nav-item nav-link nav-opt" href="contact.html">Contact</a>
             </div>
         </div>
-    </nav> 
+    </nav>
 
     <!-- Start of Page Heading with intro paragraph-->
     <section class="about">
@@ -54,70 +125,115 @@
         <h2>ABOUT</h2>
 
         <!-- Intro Paragraph -->
+
         <p>
             <p>
-                Enthusiastic, positive and multi-talented. My involvement in activities has made me an asset. In my dealings with my peers, elders and people younger alike, I have been consistently warm and firm but fair. I am helpful and always eager to assist where I can. I have a charming sense of humour, an attractive humility and a strong sense of duty.
+                Enthusiastic, positive and multi-talented. My involvement in activities has made me an asset. In my
+                dealings with my peers, elders and people younger alike, I have been consistently warm and firm but
+                fair. I am helpful and always eager to assist where I can. I have a charming sense of humour, an
+                attractive humility and a strong sense of duty.
             </p>
 
             <p>
-                I am a most courteous and thoughtful young man, reliable and conscientious. I am always willing to give my best because I believe that impossible is for the unwilling. My attitude of service sets me apart from my peers. Loyal and utterly reliable and responsible, I am a young man of undoubted integrity and good character. And I will continue to shed my light however I may possibly can.
+                I am a most courteous and thoughtful young man, reliable and conscientious. I am always willing to give
+                my best because I believe that impossible is for the unwilling. My attitude of service sets me apart
+                from my peers. Loyal and utterly reliable and responsible, I am a young man of undoubted integrity and
+                good character. And I will continue to shed my light however I may possibly can.
             </p>
         </p>
     </section>
     <!-- End of Page Heading with intro paragraph-->
 
     <main class="about">
+        <!-- Short description About Tabile Khume -->
+        <article class="section-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="pray">
+                            <img src="img\IMG-20190610-WA0019.jpg" alt="Tabile">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel text-left">
+                            <h1>Hi I'm Tabile Khume</h1>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum qui amet ratione accusamus
+                                incidunt, animi harum minus distinctio optio assumenda fugiat, ab, earum ullam laborum
+                                consequatur a sapiente necessitatibus? Beatae.
+                            </p>
+
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta ducimus, facilis
+                                voluptatibus repudiandae numquam laudantium aperiam totam possimus corporis quos
+                                quisquam cumque maxime aspernatur incidunt dolorum minima ea blanditiis excepturi? Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit. Atque distinctio repellendus
+                                quibusdam? Eveniet architecto quisquam recusandae nobis, beatae explicabo harum et
+                                eligendi quasi similique consequuntur mollitia laborum omnis? Recusandae, minus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
         <!-- Sub Heading for Languages -->
         <h4>Languages I have learnt:</h4>
 
         <!-- Brief paragraph on my learning process -->
         <p>
-            During my time I have managed to self learn some vital coding languages to boost my web development skills. I do believe that I will be doing more self-learning on other languages that are not listed below. 
+            During my time I have managed to self learn some vital coding languages to boost my web development skills.
+            I do believe that I will be doing more self-learning on other languages that are not listed below.
         </p>
-        
+
         <!-- Start of languages I have learnt placed in css grids -->
         <article class="language-grids">
             <!-- HTML -->
             <section>
                 <section class="the-language">
-                        <i class="fab fa-html5"></i> HTML
+                    <i class="fab fa-html5"></i> HTML
                 </section>
-    
+
                 <p class="language-description">
-                    Hyper Text Markup Language, it describes the structure of a webpage. 
+                    Hyper Text Markup Language, it describes the structure of a webpage.
                 </p>
             </section>
-            
+
             <!-- CSS -->
             <section>
                 <section class="the-language">
                     <i class="fab fa-css3-alt"></i> CSS
                 </section>
-    
+
                 <p class="language-description">
-                    Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. 
+                    Cascading Style Sheets is a style sheet language used for describing the presentation of a document
+                    written in a markup language like HTML.
                 </p>
             </section>
-            
+
             <!-- SASS -->
             <section>
                 <section class="the-language">
                     <i class="fab fa-sass"></i> SASS
                 </section>
-    
+
                 <p class="language-description">
-                    Syntactically Awesome Style Sheets is an extension of CSS that enables you to use things like variables, nested rules, inline imports and more. It also helps to keep things organised and allows you to create style sheets faster.
+                    Syntactically Awesome Style Sheets is an extension of CSS that enables you to use things like
+                    variables, nested rules, inline imports and more. It also helps to keep things organised and allows
+                    you to create style sheets faster.
                 </p>
             </section>
-            
+
             <!-- JS -->
             <section>
                 <section class="the-language">
-                   <i class="fab fa-js"></i> JavaScript
+                    <i class="fab fa-js"></i> JavaScript
                 </section>
-    
+
                 <p class="language-description">
-                    JavaScript, often abbreviated as JS, is a high-level, interpreted programming language that conforms to the ECMAScript specification. JavaScript has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
+                    JavaScript, often abbreviated as JS, is a high-level, interpreted programming language that conforms
+                    to the ECMAScript specification. JavaScript has curly-bracket syntax, dynamic typing,
+                    prototype-based object-orientation, and first-class functions.
                 </p>
             </section>
 
@@ -126,9 +242,10 @@
                 <section class="the-language">
                     <i class="fab fa-git-square"></i> Git Command Line
                 </section>
-    
+
                 <p class="language-description">
-                    The command line is the only place you can run all Git commands — most of the GUIs implement only a partial subset of Git functionality for simplicity.
+                    The command line is the only place you can run all Git commands — most of the GUIs implement only a
+                    partial subset of Git functionality for simplicity.
                 </p>
             </section>
 
@@ -137,13 +254,14 @@
                 <section class="the-language">
                     <i class="fab fa-node-js"></i> Node.js
                 </section>
-    
+
                 <p class="language-description">
-                    Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.
+                    Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript
+                    code outside of a browser.
                 </p>
             </section>
         </article>
-        <!-- End of languages I have learnt placed in css grids -->        
+        <!-- End of languages I have learnt placed in css grids -->
     </main>
 
     <!-- Start of Footer -->
@@ -152,4 +270,5 @@
     </footer>
     <!-- End of Footer -->
 </body>
+
 </html>

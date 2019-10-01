@@ -1,6 +1,8 @@
 // Icons Styles
 .fa-address-card,
-.fa-tasks   {
+.fa-tasks,
+.fa-pager,
+.fa-user-tie {
     background: $Prim-color;
     color: $white;
     text-align: center;
@@ -54,4 +56,3 @@
         transition: .2s linear;
     }
 }
-
